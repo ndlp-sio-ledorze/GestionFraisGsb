@@ -1,4 +1,3 @@
-
 package gsb.service;
 
 import gsb.modele.Medecin;
@@ -14,7 +13,7 @@ public class MedecinService {
 		Medecin unMedecin = null;
 		try{
 		if (unCodeMedecin==null) {
-            throw new Exception("Donnée obligatoire : code");
+            throw new Exception("Donnée obligatoire : code médecin");
         }
 		unMedecin = MedecinDao.rechercherMedecin(unCodeMedecin);
 		}
