@@ -9,7 +9,7 @@ import gsb.modele.dao.MedicamentDao;
  */
 public class MedicamentService {
 	
-	public static Medicament recherchermedicament(String unCodeMedicament){
+	public static Medicament rechercherMedicament(String unCodeMedicament){
 		Medicament unMedicament = null;
 		try{
 		if (unCodeMedicament==null) {
